@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,100&display=swap');
+@font-face{
+    font-family: "raleway";
+    src:url("../fonts/Raleway/static/Raleway-Regular.ttf"), format(truetype);
+}
+body{
+    max-width: 1160px;
+    height: 1000px;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    height: 18%;
+    background-color: #17abb3;
+}
+img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 10px;
+    height: 180px;
+    flex-basis: 15%;
+    margin-left: 50px;
+    border-radius: 50%
+}
+.bloc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 80%;
+    margin-left: 0px
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex-basis:60%;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+.lien{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 100%;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    flex-basis: 46%;
+    margin-left: 50px;
+    font-family: "raleway", serif;
+    color: #ffffff;
+    margin-left: 0px;
+    text-decoration: none;
+    background-image: url(../images/enveloppe.png);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 355px;
+
+}
+.tel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    margin-right: 75px;
+    font-family: "raleway", serif;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(../images/telephone.png);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 125px;
+}
+.adress{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 5px;
+    flex-basis: 46%;
+    font-family: "raleway", serif;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(../images/maison.png);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 350px;
+}
+.drive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    margin-right: 65px;
+    font-family: "raleway", serif;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(../images/auto.png);
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 115px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+}
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    min-height: 996px;
+    height: 100%;
+    padding-left: 15px;
+    background-color: #e3e3e3;
+}
+.bloc1 h3{
+    display: flex;
+    width: 80%;
+    color: #17abb3;
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-bottom-color: #33333320;
+    border-width: 2px;
+    font-family: "Lato", sans-serif;
+}
+.competence{
+    font-weight: bold;
+    font-family: "raleway", serif;
+}
+.langue{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    font-family: "raleway", serif;
+}
+.lang1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    font-weight: bold;
+}
+.lang2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 45%;
+}
+.lang3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    font-weight: bold;
+}
+.lang4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 45%;
+}
+.lang5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    font-weight: bold;
+}
+.lang6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 45%;
+}
+.bloc1 ul li{
+    list-style-type: square;
+    font-family: "raleway", serif;
+} 
+.bloc2{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: start;
+    width: 65%;
+    height: 100%;
+}
+.bloc2 h3{
+    display: flex;
+    width: 95%;
+    color: #17abb3;
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-bottom-color: #33333320;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: "Lato", sans-serif;
+}
+#pro{
+    margin-bottom: 0px;
+}
+#pr{
+    margin-top: 19px;
+}
+.profil{
+    width:95%;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: "raleway", serif;
+}
+.formation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    font-family: "raleway", serif;
+}
+.master{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    justify-content: end;
+    margin-bottom:0px;
+    color: #17abb3;
+}
+.lieu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 90%;
+    font-style: italic;
+}
+.bts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 15%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis:85%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 80%;
+    font-style: italic;
+}
+.mention{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis:55%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 80%;
+    font-style: italic;
+}
+.bac{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 55%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 80%;
+    font-style: italic;
+}
+.stage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:95%;
+    font-family: "raleway", serif;
+}
+.stage1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 90%;
+    font-style: italic;
+}
+.stage2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 90%;
+    font-style: italic;
+}
+.stage3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 80%;
+    font-style: italic;
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    font-family: "raleway", serif;
+}
+.exp1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 55%;
+    justify-content: end;
+    margin-bottom: 0px;
+    color: #17abb3;
+}
+.lieu7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0px;
+    flex-basis: 80%;
+    font-style: italic;
+}
+.exp2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.date9{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    justify-content: end;
+    margin-top: 0;
+    color: #17abb3;
+}
+.lieu8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 0;
+    flex-basis: 80%;
+    font-style: italic;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height:7%;
+    background-color: #17abb3;
+}
+
