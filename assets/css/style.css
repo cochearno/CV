@@ -16,7 +16,7 @@ header{
     height: 18%;
     background-color: #17abb3;
 }
-img{
+header img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ img{
     border-color: #ffffff;
     border-style: solid;
 }
-img:hover{
+header img:hover{
     cursor: zoom-in;
 }
 .bloc{
@@ -602,12 +602,15 @@ footer{
     margin-top: 20px;
     margin-left: 50px;;
 }
+.insta a img:hover{
+    opacity: 0,8;
+}
 .linkedin{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 6%;
-    justify-content: start;
+    justify-content: end;
     align-items: start;
 }
 .linkedin a img{
@@ -617,14 +620,15 @@ footer{
     flex-basis: 35%;
     width: 25px;
     height: 35%;
-    justify-content: center;
+    justify-content: end;
     margin-top: 20px;
+    margin-right: 20px;
 }
 .github{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 8%;
+    width: 10%;
     justify-content: start;
     align-items: start;
 }
@@ -646,7 +650,7 @@ footer p{
     align-items: center;
     flex-basis: 35%;
     margin-top: 0px;
-    margin-left: 265px;
+    margin-left: 245px;
     margin-right: 0px;
     font-family: "raleway";
     color: #ffffff;
