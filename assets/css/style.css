@@ -20,11 +20,16 @@ img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 10px;
-    height: 180px;
+    width: 150px;
+    height: 170px;
     flex-basis: 15%;
-    margin-left: 50px;
-    border-radius: 50%
+    margin-left: 70px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-style: solid;
+}
+img:hover{
+    cursor: zoom-in;
 }
 .bloc{
     display: flex;
@@ -224,6 +229,12 @@ h2{
     width: 65%;
     height: 100%;
 }
+ul li{
+    color: #17abb3;
+}
+ul span{
+    color: black;
+}
 .bloc2 h3{
     display: flex;
     width: 95%;
@@ -248,14 +259,16 @@ h2{
     text-indent: 30px;
     font-family: "raleway", serif;
 }
-.formation{
+.master{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
-    font-family: "raleway", serif;
+    font-family: "raleway";
 }
-.master{
+.master:hover{
+    background-color: #e3e3e3;
+}
+.master1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -277,11 +290,21 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
+    justify-items: start;
     margin-top: 0;
     flex-basis: 90%;
     font-style: italic;
 }
 .bts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "raleway";
+}
+.bts:hover{
+    background-color: #e3e3e3;
+}
+.bts1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -311,6 +334,15 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: "raleway";
+}
+.mention:hover{
+    background-color: #e3e3e3;
+}
+.mention1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex-basis: 45%;
     margin-bottom: 0px;
     font-weight: bold;
@@ -337,6 +369,15 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: "raleway";
+}
+.bac:hover{
+    background-color: #e3e3e3;
+}
+.bac1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex-basis: 45%;
     margin-bottom: 0px;
     font-weight: bold;
@@ -359,12 +400,14 @@ h2{
     flex-basis: 80%;
     font-style: italic;
 }
-.stage{
+.lyon{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width:95%;
-    font-family: "raleway", serif;
+    font-family: "raleway";
+}
+.lyon:hover{
+    background-color: #e3e3e3;
 }
 .stage1{
     display: flex;
@@ -392,6 +435,15 @@ h2{
     flex-basis: 90%;
     font-style: italic;
 }
+.bruxelles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "raleway";
+}
+.bruxelles:hover{
+    background-color: #e3e3e3;
+}
 .stage2{
     display: flex;
     flex-direction: row;
@@ -417,6 +469,15 @@ h2{
     margin-top: 0;
     flex-basis: 90%;
     font-style: italic;
+}
+.englos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "raleway";
+}
+.englos:hover{
+    background-color: #e3e3e3;
 }
 .stage3{
     display: flex;
@@ -444,12 +505,14 @@ h2{
     flex-basis: 80%;
     font-style: italic;
 }
-.exp{
+.seq{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
-    font-family: "raleway", serif;
+    font-family: "raleway";
+}
+.seq:hover{
+    background-color: #e3e3e3;
 }
 .exp1{
     display: flex;
@@ -476,6 +539,15 @@ h2{
     margin-top: 0px;
     flex-basis: 80%;
     font-style: italic;
+}
+.rcq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "raleway";
+}
+.rcq:hover{
+    background-color: #e3e3e3;
 }
 .exp2{
     display: flex;
