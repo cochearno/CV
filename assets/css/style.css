@@ -16,17 +16,23 @@ header{
     height: 18%;
     background-color: #17abb3;
 }
+header a{
+    justify-content: end;
+    align-content: center;
+}
 header img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 150px;
-    height: 170px;
+    width: 156px;
+    height: 156px;
     flex-basis: 15%;
     margin-left: 70px;
     border-radius: 50%;
     border-color: #ffffff;
     border-style: solid;
+    justify-content: end;
+    align-content: center;
 }
 header img:hover{
     cursor: zoom-in;
@@ -149,14 +155,14 @@ h2{
     flex-direction: column;
     float: left;
     width: 30%;
-    min-height: 996px;
+    min-height: 1000px;
     height: 100%;
     padding-left: 15px;
     background-color: #e3e3e3;
 }
 .bloc1 h3{
     display: flex;
-    width: 80%;
+    width: 90%;
     color: #17abb3;
     border-bottom: solid;
     padding-bottom: 10px;
@@ -167,6 +173,86 @@ h2{
 .competence{
     font-weight: bold;
     font-family: "raleway", serif;
+    max-width: 315px;
+}
+.html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.html span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .html img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.css{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.css span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .css img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.js{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.js span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .js img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.php{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+}
+.php span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .php img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
 }
 .langue{
     display: flex;
@@ -267,6 +353,9 @@ ul span{
 }
 .master:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
+
 }
 .master1{
     display: flex;
@@ -303,6 +392,8 @@ ul span{
 }
 .bts:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .bts1{
     display: flex;
@@ -338,6 +429,8 @@ ul span{
 }
 .mention:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .mention1{
     display: flex;
@@ -373,6 +466,8 @@ ul span{
 }
 .bac:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .bac1{
     display: flex;
@@ -408,6 +503,8 @@ ul span{
 }
 .lyon:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .stage1{
     display: flex;
@@ -443,6 +540,8 @@ ul span{
 }
 .bruxelles:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .stage2{
     display: flex;
@@ -478,6 +577,8 @@ ul span{
 }
 .englos:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .stage3{
     display: flex;
@@ -513,6 +614,8 @@ ul span{
 }
 .seq:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .exp1{
     display: flex;
@@ -548,6 +651,8 @@ ul span{
 }
 .rcq:hover{
     background-color: #e3e3e3;
+    border-left-style: solid;
+    border-color: #17abb3;
 }
 .exp2{
     display: flex;
@@ -600,10 +705,7 @@ footer{
     height:35%;
     justify-content: end;
     margin-top: 20px;
-    margin-left: 50px;;
-}
-.insta a img:hover{
-    opacity: 0,8;
+    margin-left: 50px;
 }
 .linkedin{
     display: flex;
