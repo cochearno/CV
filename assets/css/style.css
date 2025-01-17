@@ -16,17 +16,23 @@ header{
     height: 18%;
     background-color: #17abb3;
 }
+header a{
+    justify-content: end;
+    align-content: center;
+}
 header img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 150px;
-    height: 170px;
+    width: 156px;
+    height: 156px;
     flex-basis: 15%;
     margin-left: 70px;
     border-radius: 50%;
     border-color: #ffffff;
     border-style: solid;
+    justify-content: end;
+    align-content: center;
 }
 header img:hover{
     cursor: zoom-in;
@@ -149,14 +155,14 @@ h2{
     flex-direction: column;
     float: left;
     width: 30%;
-    min-height: 996px;
+    min-height: 1000px;
     height: 100%;
     padding-left: 15px;
     background-color: #e3e3e3;
 }
 .bloc1 h3{
     display: flex;
-    width: 80%;
+    width: 90%;
     color: #17abb3;
     border-bottom: solid;
     padding-bottom: 10px;
@@ -167,6 +173,86 @@ h2{
 .competence{
     font-weight: bold;
     font-family: "raleway", serif;
+    max-width: 315px;
+}
+.html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.html span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .html img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.css{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.css span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .css img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.js{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+.js span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .js img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
+}
+.php{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: end;
+}
+.php span{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.competence .php img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    width:15px;
+    height: 15px;
 }
 .langue{
     display: flex;
